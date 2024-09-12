@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: linear-gradient(to top, #a2edfb, #74dbfc, #43c8ff, #00b3ff, #009bff);
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: sans-serif;
+}
+
+/* Top Bar */
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.top-bar span a {
+    color: #ffffff;
+    font-size: 5rem;
+}
+
+.social-icons {
+    display: flex;
+    font-size: 60px;
+}
+
+.social-icons li {
+    margin: 0 8px;
+}
+
+.social-icons a {
+    color: #cbc5c5;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+    font-size: 90px;
+}
+.phone{
+    margin: 50px;
+    font-size: 90px;
+}
+
+/* Navbar */
+nav {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 20rem;
+}
+
+nav a {
+    color: #c5c3c3;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.1s;
+    font-size: 4rem;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu li {
+    margin-left: 90px;
+}
+
+#menu li a {
+    font-size: 50px;
+}
+#menu li a :hover{
+
+    transition: 0.1s;
+    font-size: 90px;
+}
+
+/* Toggle for mobile */
+.toggle {
+    font-size: 30px;
+    display: none;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+/* Login button */
+.login a{
+    font-size: 50px;
+    background-color: rgba(203, 242, 229, 0.16);
+    color: #d8d4d4;
+    border-radius: 9em;
+    padding: 15px 50px;
+}
+.login a :hover{
+    color: #fff;
+}
+
+/* Fly with us button */
+button.ltsfly {
+    font-size: 50px;
+    background-color: rgb(0, 0, 0);
+    color: #c8c3c3;
+    border-radius: 9em;
+    padding: 15px 50px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+button.ltsfly:hover{
+color: #fff; 
+text-decoration: none;
+list-style: none;
+}
+.container{
+    background: #fff;
+    width: 450px;
+    padding: 1.5rem;
+    margin: 50px auto;
+    border-radius: 4em;
+    box-shadow: 0 20px 35px rgba(0,0,1,0.9);
+}
+form{
+    margin:2rem;
+}
+.from-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem;
+    margin-bottom: 0.4rem;
+}
+input{
+    color: inherit;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #2737ef;
+    padding-left: 1.5rem;
+    font-size: 15px;
+}
+.input-group{
+    padding: 1% 0;
+    position: relative;
+}
+.input-group i{
+    position: absolute;
+    color: rgb(0, 0, 0);
+
+}
+input:focus{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px solid hsl(327,90%,28%);
+}
+input::placeholder{
+    color: transparent;
+}
+label{
+    color: #4e3aface;
+    position: relative;
+    left: 1.2em;
+    bottom: 27px;
+    cursor: auto;
+    transition: 0.8 ease all;
+}
+input:focus~label,input:not(:placeholder-shown)~label{
+    top:-40px;
+    color:hsl(327,90%,28%) ;
+    font-size:15px;
+}
+.recover{
+    text-align: right;
+    font-size: 1rem;
+    margin: 1rem;
+}
+.recover a{
+    text-decoration: none;
+    color: rgb(125,125,235);
+}
+.recover a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.btn{
+    font-size: 1.3rem;
+    padding: 8px 0;
+    border-radius: 4em;
+    outline: none;
+    border: none;
+    width: 100%;
+    background: rgb(125,125,235);
+    color: #fff;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    font-size: 1.7rem;
+  
+}
+.or{
+    font-size: 1.1rem;
+    margin-top:0.5rem ;
+    text-align: center;
+}
+.icon{
+    text-align: center;
+}
+.icon i{
+    color: rgb(125,125,235);
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+    margin: 0 15px;
+}
+.icon i:hover{
+    background-color: #07001f;
+    font-size: 1.6rem;
+    border: 2px solid rgb(125,125,235);
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    font-weight: bold;
+
+}
+button{
+    color: rgb(125,125,235);
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 255);
+
+}
+/* Media queries */
+@media screen and (max-width: 600px) {
+    
+}

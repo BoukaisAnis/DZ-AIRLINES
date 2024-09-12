@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="/cropped-dz-logo-blank.webp">
+<title>DZ AIRLINES</title>
+<!-- FontAwesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+<header class="header">
+    <div class="top-bar">
+        <div class="phone">
+        <span><a href="#"><i class="fa-solid fa-phone"></i> 000000000</a></span>
+         </div>
+        <a class="logo1" href="/homepage.html"><img src="/palne without bg.png" style="width: 500px; height: 300px;" alt="DZ Airlines Logo"></a>
+       
+        <ul class="social-icons">
+            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+        </ul>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="/homepage.html">
+                <img src="/cropped-dz-logo-blank.webp" alt="Plane image" style="height: 150px; width: 100px;">
+                <h1 style="color: rgb(24, 208, 24);">D</h1><h2 style="color: red;">Z</h2> AIRLINES
+            </a>
+        </div>
+        <div class="toggle">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <ul id="menu">
+            <li><a href="/homepage.html">Home</a></li>
+            <li><a href="/homepage.html">About</a></li>
+            <li><a href="/homepage.html">Trips</a></li>
+            <li><a href="/homepage.html">Services</a></li>
+        </ul>
+        <!--<div class="login">
+            <a href="login.html"><i class="fa-solid fa-user" style="color: #ffffff;"></i> Sign up | Log in</a>
+        </div>-->
+        <button class="ltsfly">
+            <a href="#">Fly with us <i class="fa-solid fa-plane fa-rotate-270" style="color: #ffffff;"></i></a>
+        </button>
+    </nav>
+</header>
+<!--log in section-->
+    <section>
+        <div class="container" id="signup" style="display: none;">
+
+            <h1 class="from-title"> Register</h1>
+        <form method="post" action="">
+        <div class="input-group">
+            <i class="fas fa-user"></i>
+            <input type="text" name="fName" placeholder="First Name" required>
+        <label for="fname">First name</label>
+        </div>
+        
+        
+        <div class="input-group">
+            <i class="fas fa-user"></i>
+            <input type="text" name="lName" placeholder="Last Name" required>
+            <label for="fname"?>Last name</label>
+        </div>
+        
+        
+        
+        <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="email" name="email" id="email" placeholder="Email" required >
+        <label for="email">Email</label>
+        
+        
+        </div>
+        <div class="input-group">
+            <i class="fas fa-lock"></i>
+            <input type="password" id="password" placeholder="Password" required >
+        <label for="password">Password</label>
+        
+        
+        </div>
+        <input type="submit" class="btn" value="Sign Up" name="signup">
+        </form>
+        <p class="or">
+            ----------or-----------
+        </p>
+        <div class="icon">
+            <i class="fab fa-google"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        <div class="links">
+        <p>Already have Account</p>
+        <button id="signInButton">Sign In</button>
+        </div>
+        
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="container" id="signup">
+            <h1 class="from-title"> Sign In</h1>
+            <form method="post" action="">
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="fName" placeholder="First Name" required>
+            <label for="fname">First name</label>
+            </div>
+            
+            
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="lName" placeholder="Last Name" required>
+                <label for="fname"?>Last name</label>
+            </div>
+            
+            
+            
+            <div class="input-group">
+            <i class="fas fa-envelope"></i>
+            <input type="email" name="email" id="email" placeholder="Email" required >
+            <label for="email">Email</label>
+            
+            
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Password" required >
+            <label for="password">Password</label>
+            </div>
+            <p class="recover">
+                <a href="#">Recover Password</a>
+            </p>
+            <input type="submit" class="btn" value="Sign In" name="signIn">
+            </form>
+            <p class="or">
+                ----------or-----------
+            </p>
+            <div class="icon">
+                <i class="fab fa-google"></i>
+                <i class="fab fa-facebook"></i>
+            </div>
+            <div class="links">
+            <p>D'ont have an account ?</p>
+            <button id="signUpButton">Sign Up</button>
+            </div>
+            
+            </div>
+        
+    </section>
