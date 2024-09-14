@@ -7,49 +7,21 @@
     list-style: none;
 }
 body{
-    background-image: linear-gradient(to top, #a2edfb, #74dbfc, #43c8ff, #00b3ff, #009bff);
+    background-image: linear-gradient(to top, #a2edfb, #74dbfc, #43c8ff, #7ad4fa, #32aaf9);
 }
 
 header {
     font-family: sans-serif;
 }
 
-/* Top Bar */
-.top-bar {
+/*plane logo*/
+.plane{
+    width: 500px; 
+   position: fixed;
+    height: 450px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: transparent;
 }
-
-.top-bar span a {
-    color: #ffffff;
-    font-size: 5rem;
-}
-
-.social-icons {
-    display: flex;
-    font-size: 60px;
-}
-
-.social-icons li {
-    margin: 0 8px;
-}
-
-.social-icons a {
-    color: #cbc5c5;
-}
-
-.social-icons a:hover {
-    color: #ffffff;
-    font-size: 90px;
-}
-.phone{
-    margin: 50px;
-    font-size: 90px;
-}
-
 /* Navbar */
 nav {
     background-color: transparent;
@@ -88,10 +60,10 @@ nav a:hover {
 #menu li a {
     font-size: 50px;
 }
-#menu li a :hover{
+#menu li a:hover{
 
     transition: 0.1s;
-    font-size: 90px;
+    font-size: 60px;
 }
 
 /* Toggle for mobile */
@@ -100,7 +72,7 @@ nav a:hover {
     display: none;
 }
 
-.logo a {
+.logo a{
     display: flex;
     align-items: center;
     font-size: 60px;
@@ -110,19 +82,20 @@ nav a:hover {
 /* Login button */
 .login a{
     font-size: 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(12, 0, 87);
     color: #d8d4d4;
     border-radius: 9em;
     padding: 15px 50px;
 }
-.login a :hover{
+button.login a:hover{
+
     color: #fff;
 }
 
 /* Fly with us button */
 button.ltsfly {
     font-size: 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(12, 0, 87);
     color: #c8c3c3;
     border-radius: 9em;
     padding: 15px 50px;
@@ -244,6 +217,119 @@ margin-bottom: 90px;
     font-size: 40px;
     font-family: sans-serif;
 }
+/*button go back to the home page*/
+#go-back {
+    margin: 80px;
+    text-align: center;
+    
+   
+ }    
+ /* footer*/
+ footer {
+    background-color: #004080;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    margin: 20px 0;
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-section .social a{
+    font-size: 70px;
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.footer-section .social a:hover {
+    color: #ff6600;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: #003060;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+.footer-section .fa {
+    margin-right: 10px;
+}
+.social-icons li a{
+    margin: 20px;
+    font-size: 15px;
+}
+.social-icons li a:hover{
+    font-size: 30px;
+    transition: 0.2s;
+   
+}
+
+    
+   /* color: black;
+
+background-color: #fdfdfd;
+font-size: 60px;
+font-family: sans-serif;
+border-radius: 4em;
+text-decoration: none;
+margin-left: 100rem;
+*/
+/*.go-back i{
+    font-size: 800px;
+    color: rgb(0, 0, 0);
+
+}*/
 
 /* Media queries */
 @media screen and (max-width: 600px) {
