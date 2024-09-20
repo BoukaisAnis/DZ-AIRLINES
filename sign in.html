@@ -7,7 +7,7 @@
 <title>DZ AIRLINES</title>
 <!-- FontAwesome for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="sign in.css">
 </head>
 <body>
 <header class="header">
@@ -48,50 +48,38 @@
         </button>
     </nav>
 </header>
-<!--log in section-->
-<section>
-    <!-- Sign-Up Form -->
-    <div class="container" id="signUpForm">
-        <h1 class="form-title">Register</h1>
-        <form id="form">
-            <div class="input-group">
-                <i class="fas fa-user"></i>
-                <input type="text" id="firstName" placeholder="First Name" required>
-                <label for="firstName">First Name</label>
-            </div>
-  
-            <div class="input-group">
-                <i class="fas fa-user"></i>
-                <input type="text" id="lastName" placeholder="Last Name" required>
-                <label for="lastName">Last Name</label>
-            </div>
-  
-            <div class="input-group">
-                <i class="fas fa-envelope"></i>
-                <input type="email" id="email1" placeholder="Email" required>
-                <label for="email1">Email</label>
-            </div>
-  
-            <div class="input-group">
-                <i class="fas fa-lock"></i>
-                <input type="password" id="password1" placeholder="Password" required>
-                <label for="password1">Password</label>
-            </div>
-  
-            <button type="submit" class="btn" id="signUpButton">Sign Up</button>
-        </form>
-        <p class="or">----------or-----------</p>
-        <div class="icon">
-            <i class="fab fa-google"></i>
-            <i class="fab fa-facebook"></i>
-        </div>
-        <div class="links">
-            <p>Already have an account?</p>
-            <button id="signInButton"><a href="sign in.html">Sign In</a></button> 
-        </div>
-    </div>
 
- 
+<section>
+  <!-- Sign-In Form -->
+  <div class="container" id="signInForm">
+    <h1 class="form-title">Sign In:</h1>
+    <form id="form2">
+        
+        <div class="input-group">
+            <i class="fas fa-envelope"></i>
+            <input type="email" id="email2" placeholder="Email" required>
+            <label for="email2">Email</label>
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-lock"></i>
+            <input type="password" id="password2" placeholder="Password" required>
+            <label for="password2">Password</label>
+        </div>
+
+        <button  type="submit" class="btn" id="signInButton">Sign In</button>
+    </form>
+    <p class="or">----------or-----------</p>
+    <div class="icon">
+        <i class="fab fa-google"></i>
+        <i class="fab fa-facebook"></i>
+    </div>
+    <div class="links">
+        <p>Don't have an account?</p>
+        <button id="signUpButton" ><a href="login.html">Sign Up</a></button> 
+        
+    </div>
+</div>
 </section>
 
 <!-- Footer -->
@@ -144,6 +132,7 @@
     </div>
 </footer>
 
-    <script src="login.js"></script>
+    <script src="sign in .js"></script>
 </body>
+
 </html>

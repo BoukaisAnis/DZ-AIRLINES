@@ -1,123 +1,183 @@
-/*body{
-    background-image: url(DZ\ AIRLINES\ pic.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+    color: #fff;
 }
-/* Top Bar 
-.top-bar {
+body{
+    background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+font-family: 'poppins';
+}
+/*plane logo*/
+.plane{
+    width: 500px; 
+   position: fixed;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+/* Navbar */
+nav {
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
-    background-color: transparent;
-    position: fixed;
+    padding: 4rem 2rem;
 }
 
-.top-bar span a {
-    color: #ffffff;
-    font-size: 5rem;
+nav a {
+    color: #c5c3c3;
 }
 
-.social-icons {
+nav a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.1s;
+    font-size: 4rem;
+
+}
+
+.navbar {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu li {
+    margin: 20px;
+   
+    list-style: none;
+}
+
+#menu li a {
+    padding-left: 10rem;
+    font-size: 50px;
+    text-decoration: none;
+}
+#menu li a:hover{
+
+    transition: 0.1s;
     font-size: 60px;
 }
 
-.social-icons li {
-    margin: 0 8px;
+/* Toggle for mobile */
+.toggle {
+    font-size: 30px;
+    display: none;
 }
 
-.social-icons a {
-    color: #cbc5c5;
-}
-
-.social-icons a:hover {
-    color: #ffffff;
-    font-size: 90px;
-}
-.phone{
-    margin: 50px;
-    font-size: 90px;
-}*/
-    footer {
-    background-color: #004080;
-    color: #fff;
-    padding: 40px 0;
-    text-align: center;
-    font-size: 16px;
-}
-
-.footer-container {
+.logo a{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.footer-section {
-    margin: 20px 0;
-    flex: 1;
-    min-width: 220px;
-}
-
-.footer-section h4 {
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-.footer-section p, .footer-section ul {
-    font-size: 14px;
-    line-height: 1.8;
-}
-
-.footer-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 10px;
-}
-
-.footer-section ul li a {
-    color: #fff;
+    align-items: center;
+    font-size: 60px;
     text-decoration: none;
 }
 
-.footer-section ul li a:hover {
-    text-decoration: underline;
-}
-
-.footer-section .social a {
-    font-size: 20px;
-    color: #fff;
-    margin: 0 10px;
-}
-
-.footer-section .social a:hover {
-    color: #ff6600;
-}
-
-.footer-bottom {
-    margin-top: 30px;
-    padding: 10px 0;
-    background-color: #003060;
-    font-size: 14px;
-}
-
-.footer-bottom a {
-    color: #fff;
+/* Login button */
+.login a{
+    font-size: 50px;
+    border: 2px solid #fff;
+    color: #a9a6a6;
+    border-radius: 9em;
+    padding: 15px 30px;
     text-decoration: none;
 }
-
-.footer-bottom a:hover {
-    text-decoration: underline;
+.login a:hover{
+font-size: 55px;
+    color: #fff;
 }
 
-.footer-section .fa {
-    margin-right: 10px;
+/* Fly with us button */
+.ltsfly a{
+    background-color: transparent;
+    font-size: 50px;
+    border: 2px solid #fff;
+    color: #a9a6a6;
+    border-radius: 9em;
+    padding: 15px 30px;
+    text-decoration: none;
+    
+}
+.ltsfly a:hover{
+    font-size: 55px;
+color: #fff; 
+text-decoration: none;
+list-style: none;
+}
+/*video background*/
+.background-clip{
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio:16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+} 
+/*homw page text*/
+.content{
+
+    text-align: center;
+}
+.dzairline h1{
+    margin-top: 70rem;
+    font-size: 160px;
+    
+    font-weight: 600;
+    transition: 0.4s;
+ -webkit-text-stroke: 1px #fff;
+    color: transparent;   
+}
+
+.dzairline h1:hover{
+color: #fff; 
+transition: 1s;  
+}
+.content h1 .red{
+    transition: 0.4s;
+     -webkit-text-stroke: 2px #ff0000;
+    color: transparent;
+}
+h1 .red:hover{
+     color: #ff0000;
+     transition: 1s;
+    
+}
+h1 .green{
+    transition: 0.4s;
+    -webkit-text-stroke: 2px #00ff1a;
+   color: transparent;
+}
+h1 .green:hover{
+    color: #00ff26;
+    transition: 1s;
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 50px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 4em;
+    margin-top: 80px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.content a:hover{
+    font-size: 70px;
+    
+    transition: 0.3s;
+    font-family:'Times New Roman', Times, serif;
 }

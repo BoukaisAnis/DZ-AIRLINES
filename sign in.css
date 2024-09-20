@@ -175,7 +175,7 @@ form{
     margin:5rem;
 }
 h1.form-title{
-    color: #000000;
+  
     font-size: 1.5rem;
     font-weight: bold;
    text-align: center;
@@ -289,24 +289,23 @@ input:focus~label,input:not(:placeholder-shown)~label{
 
 }
 button{
-    border: none;  
-  
-  }
-  button a{
-      color: rgb(125, 125, 235);
-      
-      
-      background-color: transparent;
-      font-size: 1rem;
-      font-weight: bold;
-      cursor: pointer;
-  }
-  button a:hover{
-      text-decoration: underline;
-      color: rgb(0, 0, 255);
-  
-  }
+  border: none;  
 
+}
+button a{
+    color: rgb(125, 125, 235);
+    
+    
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 255);
+
+}
 /* Media queries */
 @media screen and (max-width: 600px) {
 
